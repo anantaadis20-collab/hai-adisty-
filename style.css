@@ -117,29 +117,37 @@ h1 span {
 }
 
 .profile {
-  min-width: 280px;
-  padding: 35px;
+  width: 320px;
+  padding: 30px;
   text-align: center;
   background: white;
   border-radius: 25px;
-  box-shadow: 0 15px 45px rgba(40,40,80,.12);
+  box-shadow: 0 15px 45px rgba(40, 40, 80, 0.12);
+  flex-shrink: 0;
 }
 
 .profile-photo {
-  width: 160px;
-  height: 160px;
+  width: 180px;
+  height: 180px;
   margin: 0 auto 20px;
-  display: grid;
-  place-items: center;
   border-radius: 50%;
-  background: var(--primary);
-  color: white;
-  font-size: 70px;
-  font-weight: 800;
+  overflow: hidden;
+  border: 6px solid #eeeeff;
+}
+
+.profile-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.profile h2 {
+  margin-bottom: 5px;
 }
 
 .profile p {
-  color: var(--text);
+  color: #5d6575;
 }
 
 .section {
