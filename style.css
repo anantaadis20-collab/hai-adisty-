@@ -6,10 +6,11 @@
 }
 
 :root {
-  --primary: #6c63ff;
-  --dark: #172033;
-  --text: #5d6575;
-  --light: #f6f7fb;
+  --primary: #b9a7e8;
+  --primary-dark: #9e89d6;
+  --dark: #3f3652;
+  --text: #71687f;
+  --light: #f7f2ff;
   --white: #ffffff;
 }
 
@@ -75,7 +76,7 @@ body {
   align-items: center;
   justify-content: space-between;
   gap: 70px;
-  background: linear-gradient(135deg, #f1f2ff, #ffffff);
+  background: linear-gradient(135deg, #f3edff 0%, #faf8ff 55%, #ffffff 100%);
 }
 
 .hero-text {
@@ -111,7 +112,7 @@ h1 span {
   padding: 13px 22px;
   border-radius: 10px;
   background: var(--primary);
-  color: white;
+  color: #ffffff;
   text-decoration: none;
   font-weight: 700;
 }
@@ -120,9 +121,9 @@ h1 span {
   width: 320px;
   padding: 30px;
   text-align: center;
-  background: white;
+  background: #ffffff;
   border-radius: 25px;
-  box-shadow: 0 15px 45px rgba(40, 40, 80, 0.12);
+  box-shadow: 0 15px 45px rgba(150, 125, 190, 0.18);
   flex-shrink: 0;
 }
 
@@ -132,7 +133,7 @@ h1 span {
   margin: 0 auto 20px;
   border-radius: 50%;
   overflow: hidden;
-  border: 6px solid #eeeeff;
+  border: 6px solid #e8ddfa;
 }
 
 .profile-photo img {
@@ -147,7 +148,7 @@ h1 span {
 }
 
 .profile p {
-  color: #5d6575;
+  color: #71687f;
 }
 
 .section {
@@ -178,7 +179,7 @@ h1 span {
 .card,
 .contact-card,
 .skills-box {
-  background: white;
+  background: #ffffff;
   padding: 30px;
   border-radius: 18px;
   box-shadow: 0 8px 30px rgba(0,0,0,.06);
@@ -246,7 +247,7 @@ h1 span {
 .bar {
   height: 11px;
   border-radius: 20px;
-  background: #e8e8ef;
+  background: #e9e2f3;
   overflow: hidden;
 }
 
@@ -333,7 +334,7 @@ footer {
     display: none;
     flex-direction: column;
     text-align: center;
-    background: white;
+    background: #ffffff;
   }
 
   .nav-links.show {
